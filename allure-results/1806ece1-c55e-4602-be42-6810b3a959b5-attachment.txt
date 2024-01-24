@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 14:27:51 GMT
+
+Endpoint: http://localhost:8080/api/user?sendActivationMail=false
+
+Request body: {"email":"tenant1@tb.io","authority":"TENANT_ADMIN","firstName":"John","lastName":"Doe","tenantId":{"id":"c18fd7d0-bac4-11ee-9685-e371850a1d6e","entityType":"TENANT"},"additionalInfo":{"defaultDashboardFullscreen":false,"defaultDashboardId":null,"description":"my test description","homeDashboardHideToolbar":true,"homeDashboardId":null}}
+
+Response status code: 200
+
+Response: {"id":{"entityType":"USER","id":"c1ac3970-bac4-11ee-9685-e371850a1d6e"},"createdTime":1706106472071,"additionalInfo":{"defaultDashboardFullscreen":false,"defaultDashboardId":null,"description":"my test description","homeDashboardHideToolbar":true,"homeDashboardId":null},"tenantId":{"entityType":"TENANT","id":"c18fd7d0-bac4-11ee-9685-e371850a1d6e"},"customerId":{"entityType":"CUSTOMER","id":"13814000-1dd2-11b2-8080-808080808080"},"email":"tenant1@tb.io","authority":"TENANT_ADMIN","firstName":"John","lastName":"Doe","phone":null,"ownerId":{"entityType":"TENANT","id":"c18fd7d0-bac4-11ee-9685-e371850a1d6e"},"name":"tenant1@tb.io"}

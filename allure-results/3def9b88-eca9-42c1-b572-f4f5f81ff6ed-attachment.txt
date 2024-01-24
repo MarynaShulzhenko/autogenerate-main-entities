@@ -1,0 +1,11 @@
+
+
+Request date: Thu, 18 Jan 2024 09:57:58 GMT
+
+Endpoint: http://localhost:8080/api/device-connectivity/{deviceId}
+
+Request body: 
+
+Response status code: 200
+
+Response: {"http":{"http":"curl -v -X POST http://localhost:8080/api/v1/SSiSW0Cy3Hgz36yA7Am9/telemetry --header Content-Type:application/json --data \"{temperature:25}\""},"mqtt":{"mqtt":"mosquitto_pub -d -q 1 -h localhost -p 1883 -t v1/devices/me/telemetry -u \"SSiSW0Cy3Hgz36yA7Am9\" -m \"{temperature:25}\"","docker":{"mqtt":"docker run --rm -it --add-host=host.docker.internal:host-gateway thingsboard/mosquitto-clients mosquitto_pub -d -q 1 -h host.docker.internal -p 1883 -t v1/devices/me/telemetry -u \"SSiSW0Cy3Hgz36yA7Am9\" -m \"{temperature:25}\""}},"coap":{"coap":"coap-client -v 6 -m POST coap://localhost:5683/api/v1/SSiSW0Cy3Hgz36yA7Am9/telemetry -t json -e \"{temperature:25}\"","docker":{"coap":"docker run --rm -it --add-host=host.docker.internal:host-gateway thingsboard/coap-clients coap-client -v 6 -m POST coap://host.docker.internal:5683/api/v1/SSiSW0Cy3Hgz36yA7Am9/telemetry -t json -e \"{temperature:25}\""}}}

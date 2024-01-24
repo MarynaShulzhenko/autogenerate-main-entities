@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 14:27:52 GMT
+
+Endpoint: http://localhost:8080/api/entityGroupInfos/CUSTOMER/{customerId}/USER?pageSize=50&page=0&sortProperty=name&sortOrder=ASC
+
+Request body: 
+
+Response status code: 200
+
+Response: {"data":[{"id":{"entityType":"ENTITY_GROUP","id":"c24c4a00-bac4-11ee-9685-e371850a1d6e"},"name":"All"},{"id":{"entityType":"ENTITY_GROUP","id":"c24da990-bac4-11ee-9685-e371850a1d6e"},"name":"Customer Administrators"},{"id":{"entityType":"ENTITY_GROUP","id":"c24c9820-bac4-11ee-9685-e371850a1d6e"},"name":"Customer Users"}],"totalPages":1,"totalElements":3,"hasNext":false}

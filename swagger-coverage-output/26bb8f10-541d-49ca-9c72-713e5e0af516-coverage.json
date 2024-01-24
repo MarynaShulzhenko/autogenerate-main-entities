@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "host" : "localhost",
+  "schemes" : [ "http" ],
+  "consumes" : [ null ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/api/user/{userId}/token" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "userId",
+          "in" : "path",
+          "required" : true,
+          "x-example" : "a890ff20-b614-11ee-86db-a5982cf2050b"
+        }, {
+          "name" : "X-Authorization",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzeXNhZG1pbkB0aGluZ3Nib2FyZC5vcmciLCJ1c2VySWQiOiJhYzhjOGUxMC1iNTE0LTExZWUtYTFjZC1hOWUyNmNhNDliZWMiLCJzY29wZXMiOlsiU1lTX0FETUlOIl0sInNlc3Npb25JZCI6IjI0M2EwOGU1LTY2ZjgtNGJkZC1iOTg1LTIzN2U1OWFkODQwNiIsImlzcyI6InRoaW5nc2JvYXJkLmlvIiwiaWF0IjoxNzA1NTkxMDMzLCJleHAiOjE3MDU2MDAwMzMsImVuYWJsZWQiOnRydWUsImlzUHVibGljIjpmYWxzZSwidGVuYW50SWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJjdXN0b21lcklkIjoiMTM4MTQwMDAtMWRkMi0xMWIyLTgwODAtODA4MDgwODA4MDgwIn0.wR7xercoSfgyGpqEM-aN9l2vfdVneealzTChLrdag_NiTYonoQc_XZcUJNhqrwvvPNP1fHm8Sqtj-7h1wMvJgw"
+        }, {
+          "name" : "Accept",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "*/*"
+        } ],
+        "responses" : {
+          "200" : { }
+        }
+      }
+    }
+  }
+}

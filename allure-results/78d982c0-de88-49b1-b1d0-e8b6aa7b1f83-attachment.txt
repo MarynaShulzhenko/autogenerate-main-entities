@@ -1,0 +1,11 @@
+
+
+Request date: Mon, 15 Jan 2024 14:27:45 GMT
+
+Endpoint: http://localhost:8080
+
+Request body: {"email":"\"tenant1@tb.io\"","password":"\"tenant1_pass\"","firstName":"John","lastName":"Doe","tenantId":{"id":"823d76b0-b145-11ee-b120-43f4179d9531","entityType":"TENANT"},"additionalInfo":{"defaultDashboardFullscreen":false,"defaultDashboardId":null,"description":"my test description","homeDashboardHideToolbar":true,"homeDashboardId":null}}
+
+Response status code: 404
+
+Response: {"timestamp":"2024-01-15T14:27:45.430+00:00","status":404,"error":"Not Found","path":"/"}

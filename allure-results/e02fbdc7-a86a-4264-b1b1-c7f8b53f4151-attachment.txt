@@ -1,0 +1,11 @@
+
+
+Request date: Tue, 16 Jan 2024 14:01:06 GMT
+
+Endpoint: http://localhost:8080/api/user?sendActivationMail=false
+
+Request body: {"email":"tenant1@tb.io","authority":"TENANT_ADMIN","firstName":"John","lastName":"Doe","tenantId":{"id":"b1b1ee00-b477-11ee-9ebf-05d664caa762","entityType":"TENANT"},"additionalInfo":{"defaultDashboardFullscreen":false,"defaultDashboardId":null,"description":"my test description","homeDashboardHideToolbar":true,"homeDashboardId":null}}
+
+Response status code: 400
+
+Response: {"status":400,"message":"User with email 'tenant1@tb.io'  already present in database!","errorCode":31,"timestamp":1705413667240}

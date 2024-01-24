@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 17 Jan 2024 14:13:53 GMT
+
+Endpoint: http://localhost:8080/api/entityGroup
+
+Request body: "{\"name\":\"My_new_test_device_group\",\"type\":\"DEVICE\",\"ownerId\":{\"entityType\":\"TENANT\",\"id\":\"a37d2220-b542-11ee-be79-359bf44b3826\"}}"
+
+Response status code: 403
+
+Response: {"status":403,"message":"Unable to create entity group: Invalid entity group ownerId!","errorCode":20,"timestamp":1705500833164}

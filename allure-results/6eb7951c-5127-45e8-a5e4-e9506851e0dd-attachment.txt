@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 17 Jan 2024 14:11:21 GMT
+
+Endpoint: http://localhost:8080/api/entityGroup
+
+Request body: "{\"name\":\"My new test device group\",\"additionalInfo\":{\"description\":\"\"},\"type\":\"DEVICE\",\"ownerId\":{\"entityType\":\"TENANT_ADMIN\",\"id\":\"4945bc40-b542-11ee-be79-359bf44b3826\"}}"
+
+Response status code: 500
+
+Response: {"status":500,"message":"JSON parse error: No enum constant org.thingsboard.server.common.data.EntityType.TENANT_ADMIN; nested exception is com.fasterxml.jackson.databind.JsonMappingException: No enum constant org.thingsboard.server.common.data.EntityType.TENANT_ADMIN (through reference chain: org.thingsboard.server.common.data.group.EntityGroup[\"ownerId\"])","errorCode":2,"timestamp":1705500681793}

@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "host" : "localhost",
+  "schemes" : [ "http" ],
+  "consumes" : [ null ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/api/entityGroupInfos/CUSTOMER/{customerId}/USER" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "customerId",
+          "in" : "path",
+          "required" : true,
+          "x-example" : "f3281230-bac4-11ee-9685-e371850a1d6e"
+        }, {
+          "name" : "X-Authorization",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZW5hbnQyQHRiLmlvIiwidXNlcklkIjoiZjMwOThkYjAtYmFjNC0xMWVlLTk2ODUtZTM3MTg1MGExZDZlIiwic2NvcGVzIjpbIlRFTkFOVF9BRE1JTiJdLCJzZXNzaW9uSWQiOiIwOWE0ZDBhNi0wOTNlLTQ0OGEtOTRkOC1iNmFlOTgwNzhlOWQiLCJpc3MiOiJ0aGluZ3Nib2FyZC5pbyIsImlhdCI6MTcwNjEwNjU1NCwiZXhwIjoxNzA2MTE1NTU0LCJmaXJzdE5hbWUiOiJOYW5hIiwibGFzdE5hbWUiOiJTbWl0IiwiZW5hYmxlZCI6ZmFsc2UsImlzUHVibGljIjpmYWxzZSwidGVuYW50SWQiOiJmMmY2MDViMC1iYWM0LTExZWUtOTY4NS1lMzcxODUwYTFkNmUiLCJjdXN0b21lcklkIjoiMTM4MTQwMDAtMWRkMi0xMWIyLTgwODAtODA4MDgwODA4MDgwIn0.IAMbTiu11GC2MsGnMMhy6KNeAkRT4egAOwykLLvoYVdKscjt1UTUAZnb0DbSUh7DTYyZxUAR5yApYvE9T6h3Kg"
+        }, {
+          "name" : "Accept",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "*/*"
+        } ],
+        "responses" : {
+          "200" : { }
+        }
+      }
+    }
+  }
+}

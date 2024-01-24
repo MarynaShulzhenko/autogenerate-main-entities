@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 11:56:08 GMT
+
+Endpoint: http://localhost:8080/api/customer/
+
+Request body: "{\"title\":\"My new test customer 2\",\"additionalInfo\":{\"description\":\"test_description\",\"allowWhiteLabeling\":true}}"
+
+Response status code: 200
+
+Response: {"id":{"entityType":"CUSTOMER","id":"8f87f840-baaf-11ee-9685-e371850a1d6e"},"createdTime":1706097368516,"additionalInfo":{"description":"test_description","allowWhiteLabeling":true},"country":null,"state":null,"city":null,"address":null,"address2":null,"zip":null,"phone":null,"email":null,"title":"My new test customer 2","tenantId":{"entityType":"TENANT","id":"8ef1d2c0-baaf-11ee-9685-e371850a1d6e"},"parentCustomerId":null,"externalId":null,"customerId":null,"ownerId":{"entityType":"TENANT","id":"8ef1d2c0-baaf-11ee-9685-e371850a1d6e"},"name":"My new test customer 2"}

@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "host" : "localhost",
+  "schemes" : [ "http" ],
+  "consumes" : [ null ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/api/device-connectivity/{deviceId}" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "deviceId",
+          "in" : "path",
+          "required" : true,
+          "x-example" : "0f074980-b5e8-11ee-be79-359bf44b3826"
+        }, {
+          "name" : "X-Authorization",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZW5hbnQxQHRiLmlvIiwidXNlcklkIjoiMGVmNWU0NjAtYjVlOC0xMWVlLWJlNzktMzU5YmY0NGIzODI2Iiwic2NvcGVzIjpbIlRFTkFOVF9BRE1JTiJdLCJzZXNzaW9uSWQiOiI0ZTEzNWNhMS1lMjBlLTQzMDktYWNkYy05MmZmZGJjNmEzOWMiLCJpc3MiOiJ0aGluZ3Nib2FyZC5pbyIsImlhdCI6MTcwNTU3MTg3OCwiZXhwIjoxNzA1NTgwODc4LCJmaXJzdE5hbWUiOiJKb2huIiwibGFzdE5hbWUiOiJEb2UiLCJlbmFibGVkIjpmYWxzZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjBlZDgyMzMwLWI1ZTgtMTFlZS1iZTc5LTM1OWJmNDRiMzgyNiIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAifQ.r3yTjQwi0pGydHzJicfaJAjIL-BoRMqVn7VjqXU5xKte4oWfqf-449FuSXDBsfJRWtECZTfclugSWX5IqRtwLA"
+        }, {
+          "name" : "Accept",
+          "in" : "header",
+          "required" : false,
+          "x-example" : "*/*"
+        } ],
+        "responses" : {
+          "200" : { }
+        }
+      }
+    }
+  }
+}

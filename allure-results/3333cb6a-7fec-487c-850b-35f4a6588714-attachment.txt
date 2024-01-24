@@ -1,0 +1,11 @@
+
+
+Request date: Tue, 16 Jan 2024 14:01:06 GMT
+
+Endpoint: http://localhost:8080/api/tenant
+
+Request body: "{\"title\":\"My new tenant\"}"
+
+Response status code: 200
+
+Response: {"id":{"entityType":"TENANT","id":"b1b1ee00-b477-11ee-9ebf-05d664caa762"},"createdTime":1705413667040,"additionalInfo":null,"country":null,"state":null,"city":null,"address":null,"address2":null,"zip":null,"phone":null,"email":null,"title":"My new tenant","region":"Global","tenantProfileId":{"entityType":"TENANT_PROFILE","id":"acd00330-b144-11ee-ae8f-4147bb2cd505"},"name":"My new tenant"}

@@ -1,0 +1,11 @@
+
+
+Request date: Thu, 18 Jan 2024 15:21:03 GMT
+
+Endpoint: http://localhost:8080/api/entityGroup
+
+Request body: "{\"name\":\"My_new_customer_group\",\"type\":\"CUSTOMER\"}}"
+
+Response status code: 200
+
+Response: {"id":{"entityType":"ENTITY_GROUP","id":"317f2a50-b615-11ee-86db-a5982cf2050b"},"createdTime":1705591263605,"type":"CUSTOMER","name":"My_new_customer_group","ownerId":{"entityType":"TENANT","id":"31374be0-b615-11ee-86db-a5982cf2050b"},"additionalInfo":null,"configuration":{"columns":[{"type":"ENTITY_FIELD","key":"created_time","sortOrder":"DESC"},{"type":"ENTITY_FIELD","key":"title","sortOrder":"NONE"},{"type":"ENTITY_FIELD","key":"email","sortOrder":"NONE"},{"type":"ENTITY_FIELD","key":"country","sortOrder":"NONE"},{"type":"ENTITY_FIELD","key":"city","sortOrder":"NONE"}],"settings":{},"actions":{}},"externalId":null,"ownerIds":[{"entityType":"TENANT","id":"31374be0-b615-11ee-86db-a5982cf2050b"}],"groupAll":false,"edgeGroupAll":false}

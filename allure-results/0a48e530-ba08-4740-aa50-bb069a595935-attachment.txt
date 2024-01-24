@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 14:29:14 GMT
+
+Endpoint: http://localhost:8080/api/device
+
+Request body: "{\"name\":\"My new test device 3\",\"label\":\"\",\"deviceProfileId\":{\"entityType\":\"DEVICE_PROFILE\",\"id\":\"f30f3300-bac4-11ee-9685-e371850a1d6e\"},\"additionalInfo\":{\"gateway\":false,\"overwriteActivityTime\":false,\"description\":\"My test description\"},\"customerId\":null}"
+
+Response status code: 200
+
+Response: {"id":{"entityType":"DEVICE","id":"f3191e10-bac4-11ee-9685-e371850a1d6e"},"createdTime":1706106554993,"additionalInfo":{"gateway":false,"overwriteActivityTime":false,"description":"My test description"},"tenantId":{"entityType":"TENANT","id":"f2f605b0-bac4-11ee-9685-e371850a1d6e"},"customerId":{"entityType":"CUSTOMER","id":"13814000-1dd2-11b2-8080-808080808080"},"name":"My new test device 3","type":"New test device profile","label":"","deviceProfileId":{"entityType":"DEVICE_PROFILE","id":"f30f3300-bac4-11ee-9685-e371850a1d6e"},"deviceData":{"configuration":{"type":"DEFAULT"},"transportConfiguration":{"type":"DEFAULT"}},"firmwareId":null,"softwareId":null,"externalId":null,"ownerId":{"entityType":"TENANT","id":"f2f605b0-bac4-11ee-9685-e371850a1d6e"}}

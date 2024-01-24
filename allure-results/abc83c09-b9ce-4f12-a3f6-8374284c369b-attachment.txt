@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 14:27:52 GMT
+
+Endpoint: http://localhost:8080/api/user?sendActivationMail=false&entityGroupIds={entityGroupId}
+
+Request body: "{\"email\":\"my_new_customer_user1@test.io\",\"additionalInfo\":{\"description\":\"\",\"defaultDashboardId\":null,\"defaultDashboardFullscreen\":false,\"homeDashboardId\":null,\"homeDashboardHideToolbar\":true},\"authority\":\"CUSTOMER_USER\",\"customerId\":{\"entityType\":\"CUSTOMER\",\"id\":\"c2944f80-bac4-11ee-9685-e371850a1d6e\"}}"
+
+Response status code: 400
+
+Response: {"status":400,"message":"User with email 'my_new_customer_user1@test.io'  already present in database!","errorCode":31,"timestamp":1706106473645}

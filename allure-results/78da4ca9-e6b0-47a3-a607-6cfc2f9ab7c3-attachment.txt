@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 24 Jan 2024 14:29:14 GMT
+
+Endpoint: http://localhost:8080/api/user?sendActivationMail=false&entityGroupIds={entityGroupId}
+
+Request body: "{\"email\":\"my_new_customer_user111@test.io\",\"additionalInfo\":{\"description\":\"\",\"defaultDashboardId\":null,\"defaultDashboardFullscreen\":false,\"homeDashboardId\":null,\"homeDashboardHideToolbar\":true},\"authority\":\"CUSTOMER_USER\",\"customerId\":{\"entityType\":\"CUSTOMER\",\"id\":\"f395c820-bac4-11ee-9685-e371850a1d6e\"}}"
+
+Response status code: 200
+
+Response: {"id":{"entityType":"USER","id":"f39cf410-bac4-11ee-9685-e371850a1d6e"},"createdTime":1706106555857,"additionalInfo":{"description":"","defaultDashboardId":null,"defaultDashboardFullscreen":false,"homeDashboardId":null,"homeDashboardHideToolbar":true},"tenantId":{"entityType":"TENANT","id":"f35f27c0-bac4-11ee-9685-e371850a1d6e"},"customerId":{"entityType":"CUSTOMER","id":"f395c820-bac4-11ee-9685-e371850a1d6e"},"email":"my_new_customer_user111@test.io","authority":"CUSTOMER_USER","firstName":null,"lastName":null,"phone":null,"ownerId":{"entityType":"CUSTOMER","id":"f395c820-bac4-11ee-9685-e371850a1d6e"},"name":"my_new_customer_user111@test.io"}

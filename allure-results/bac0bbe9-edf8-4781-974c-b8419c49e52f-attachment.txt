@@ -1,0 +1,11 @@
+
+
+Request date: Thu, 18 Jan 2024 14:54:41 GMT
+
+Endpoint: http://localhost:8080/api/device
+
+Request body: "{\"name\":\"My new test device\",\"label\":\"\",\"deviceProfileId\":{\"entityType\":\"DEVICE_PROFILE\",\"id\":\"83070a40-b611-11ee-86db-a5982cf2050b\"},\"additionalInfo\":{\"gateway\":false,\"overwriteActivityTime\":false,\"description\":\"My test description\"},\"customerId\":null}"
+
+Response status code: 400
+
+Response: {"status":400,"message":"Device with such name already exists!","errorCode":31,"timestamp":1705589682480}

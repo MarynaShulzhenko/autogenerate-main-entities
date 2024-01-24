@@ -1,0 +1,11 @@
+
+
+Request date: Tue, 16 Jan 2024 10:21:06 GMT
+
+Endpoint: http://localhost:8080/api/user/{userId}/token
+
+Request body: 
+
+Response status code: 400
+
+Response: {"status":400,"message":"Invalid UUID string: token","errorCode":31,"timestamp":1705400466343}

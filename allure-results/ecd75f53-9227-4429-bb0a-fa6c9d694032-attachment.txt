@@ -1,0 +1,11 @@
+
+
+Request date: Thu, 18 Jan 2024 15:20:02 GMT
+
+Endpoint: http://localhost:8080/api/entityGroup
+
+Request body: "{\"title\":\"My new test customer 1\",\"additionalInfo\":{\"description\":\"test_description\",\"allowWhiteLabeling\":true}}"
+
+Response status code: 400
+
+Response: {"status":400,"message":"EntityGroup type is required!","errorCode":31,"timestamp":1705591202929}

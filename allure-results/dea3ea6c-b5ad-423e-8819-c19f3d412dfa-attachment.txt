@@ -1,0 +1,11 @@
+
+
+Request date: Wed, 17 Jan 2024 14:19:16 GMT
+
+Endpoint: http://localhost:8080/api/entityGroup
+
+Request body: "{\"name\":\"My_new_test_device_group\",\"type\":\"DEVICE\",\"ownerId\":{\"entityType\":\"TENANT\",\"id\":\"dee89ec0-b542-11ee-be79-359bf44b3826\"}}"
+
+Response status code: 401
+
+Response: {"status":401,"message":"Token has expired","errorCode":11,"timestamp":1705501156672}

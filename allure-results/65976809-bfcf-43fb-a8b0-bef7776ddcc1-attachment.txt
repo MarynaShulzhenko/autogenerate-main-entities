@@ -1,0 +1,11 @@
+
+
+Request date: Mon, 15 Jan 2024 14:27:45 GMT
+
+Endpoint: http://localhost:8080
+
+Request body: {"username":"sysadmin@thingsboard.org","password":"sysadmin"}
+
+Response status code: 404
+
+Response: {"timestamp":"2024-01-15T14:27:45.293+00:00","status":404,"error":"Not Found","path":"/"}
